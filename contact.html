@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Opportunities | Sumama Rahim</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg academic-nav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-mortarboard-fill" style="color: var(--accent-primary);"></i>
+        <span>Sumama Rahim</span>
+        <span class="badge bg-secondary font-mono ms-1" style="font-size: 0.65rem; font-weight: 400;">BS CS '27</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#academicNavContent" aria-controls="academicNavContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="academicNavContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="teaching-competitions.html">Teaching & Competitions</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="flex-grow-1 py-4">
+    <div class="container">
+      <h1 class="h2 fw-bold mb-1">Academic Contact & Opportunities</h1>
+      <p class="text-muted mb-4 font-mono">Direct Communication Channel for Faculty, Researchers & Admissions Committees</p>
+
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <div class="academic-card mb-4">
+            <h2 class="h5 fw-bold mb-3" style="color: var(--accent-primary);">Research & Academic Opportunities</h2>
+            <p class="text-muted small" style="line-height:1.7;">
+              "I am open to Research Assistant (RA/GRA), Teaching Assistant (TA/GTA), undergraduate research, and interdisciplinary computing opportunities. I welcome opportunities to contribute to academic projects, support teaching activities, and collaborate with research teams."
+            </p>
+            
+            <div class="mt-4 pt-3 border-top border-secondary-subtle">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="stat-box p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-envelope-fill" style="color: var(--accent-primary);"></i>
+                </div>
+                <div>
+                  <div class="font-mono text-xs text-muted text-uppercase">Direct Email</div>
+                  <div class="fw-bold font-mono">[ sumama.rahim.email@placeholder.edu ]</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="stat-box p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-linkedin" style="color: var(--accent-primary);"></i>
+                </div>
+                <div>
+                  <div class="font-mono text-xs text-muted text-uppercase">LinkedIn Profile</div>
+                  <div class="fw-bold font-mono">[ linkedin.com/in/placeholder-sumama-rahim ]</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="stat-box p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-github" style="color: var(--accent-primary);"></i>
+                </div>
+                <div>
+                  <div class="font-mono text-xs text-muted text-uppercase">GitHub Profile</div>
+                  <div class="fw-bold font-mono">[ github.com/placeholder-sumama-rahim ]</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3">
+                <div class="stat-box p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-geo-alt-fill" style="color: var(--accent-primary);"></i>
+                </div>
+                <div>
+                  <div class="font-mono text-xs text-muted text-uppercase">Current Location</div>
+                  <div class="fw-bold">Islamabad, Pakistan (UTC +5)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="academic-card">
+            <h2 class="h5 fw-bold mb-3">Send an Academic Inquiry</h2>
+            <div class="alert alert-secondary font-mono text-xs mb-3">
+              <i class="bi bi-info-circle me-1"></i> Static HTML Note: Deliver submissions via Formspree or EmailJS in production.
+            </div>
+            <form id="contactForm" onsubmit="event.preventDefault(); document.getElementById('formSuccessMessage').classList.remove('d-none');">
+              <div class="mb-3">
+                <label class="form-label small font-mono">Your Name / Title</label>
+                <input type="text" class="form-control form-control-sm bg-dark text-white border-secondary" placeholder="Prof. Jane Doe / Dr. John Smith" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small font-mono">Academic Email</label>
+                <input type="email" class="form-control form-control-sm bg-dark text-white border-secondary" placeholder="j.doe@university.edu" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small font-mono">Subject</label>
+                <input type="text" class="form-control form-control-sm bg-dark text-white border-secondary" placeholder="Research Assistant Inquiry" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small font-mono">Message</label>
+                <textarea class="form-control form-control-sm bg-dark text-white border-secondary" rows="4" placeholder="Dear Sumama..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-academic-primary w-100">Submit Academic Inquiry</button>
+            </form>
+            <div id="formSuccessMessage" class="alert alert-success mt-3 d-none font-mono small">
+              Thank you for your message! Simulated submission successful.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="academic-footer py-4">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="fw-bold text-main mb-1">Sumama Rahim</div>
+          <div class="small">BS Computer Science Undergraduate &bull; National Skills University, Islamabad</div>
+          <div class="text-xs text-muted mt-1 font-mono">&copy; 2026 Sumama Rahim. All rights reserved.</div>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 font-mono text-xs">
+            <a href="index.html" class="text-muted text-decoration-none">Home</a>
+            <a href="research.html" class="text-muted text-decoration-none">Research</a>
+            <a href="projects.html" class="text-muted text-decoration-none">Projects</a>
+            <a href="contact.html" class="text-muted text-decoration-none">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
